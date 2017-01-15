@@ -1,28 +1,62 @@
 * {
 	box-sizing: border-box;
+	font-family: helvetica;
 }
 
 h1 {
 	text-align: center;
+	color: #d3d3d3;
+	font-size: 175%;
 }
 
 body {
 	background-image: url("background.jpg");
+	margin: 0px;
 }
 
 .itemname {
-	margin-left: 70%;
+	left: 70%;
 	border: solid black 1px;
 	width: 30%;
 	position: relative;
 	text-align: center;
-	background-color: black;
+	background-color: #FA7002;
 	color: white;
+	font-size: 125%;
 }
 
-.container {
+.itemname1 {
+	left: 70%;
+	border: solid black 1px;
+	width: 30%;
+	position: relative;
+	text-align: center;
+	background-color: #FA3052;
+	color: white;
+	font-size: 125%;
+}
+
+.itemname2 {
+	left: 70%;
+	border: solid black 1px;
+	width: 30%;
+	position: relative;
+	text-align: center;
+	background-color: #FA8092;
+	color: white;
+	font-size: 125%;
+}
+
+.description {
+	padding: 5px;
+}
+
+.section {
 	border: solid black 1px;
 	background-color: gray;
+	margin-left: 15px;
+	margin-bottom: 30px;
+	margin-right: 15px;
 }
 
 .row {
@@ -114,6 +148,38 @@ body {
 	}
 	.col-md-12 {
 		width: 100%;
+	}
+	.itemname, {
+	left: 70%;
+	border: solid black 1px;
+	width: 30%;
+	position: relative;
+	text-align: center;
+	background-color: #FA7002;
+	color: white;
+	font-size: 125%;
+	}
+
+	.itemname1, {
+	left: 70%;
+	border: solid black 1px;
+	width: 30%;
+	position: relative;
+	text-align: center;
+	background-color: #FA3052;
+	color: white;
+	font-size: 125%;
+	}
+
+	.itemname2 {
+	left: 85%;
+	border: solid black 1px;
+	width: 15%;
+	position: relative;
+	text-align: center;
+	background-color: #FA8092;
+	color: white;
+	font-size: 125%;
 	}
 }
 

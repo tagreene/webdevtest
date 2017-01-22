@@ -9,7 +9,6 @@ body {
 	background-color: salmon;
 	border-radius: 0;
 	border: 0;
-	height: 75px;
 }
 
 .navbar-header {
@@ -37,5 +36,27 @@ body {
 
 #nav-list a {
 	background-color: salmon;
-	text-align: center;
+}
+
+section > div > div {
+	border:white solid 1px;
+	margin: 10px 10px;
+	padding: 5px;
+}
+
+.menudescription {
+	padding: 10px;
+}
+
+#b2t {
+	color: salmon;
+}
+
+#b2t a:hover, #b2t a:focus {
+	text-decoration: none;
+}
+
+#sectionrow {
+	width: 100%;
+	margin: 0;
 }

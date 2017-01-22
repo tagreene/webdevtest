@@ -15,10 +15,10 @@ body {
 }
 
 .itemname {
-	left: 70%;
+	right: 0%;
 	border: solid black 1px;
 	width: 30%;
-	position: relative;
+	position: absolute;
 	text-align: center;
 	background-color: #FA7002;
 	color: white;
@@ -26,10 +26,10 @@ body {
 }
 
 .itemname1 {
-	left: 70%;
+	right: 0%;
 	border: solid black 1px;
 	width: 30%;
-	position: relative;
+	position: absolute;
 	text-align: center;
 	background-color: #FA3052;
 	color: white;
@@ -37,10 +37,10 @@ body {
 }
 
 .itemname2 {
-	left: 70%;
+	right: 0%;
 	border: solid black 1px;
 	width: 30%;
-	position: relative;
+	position: absolute;
 	text-align: center;
 	background-color: #FA8092;
 	color: white;
@@ -151,10 +151,10 @@ body {
 		width: 100%;
 	}
 	.itemname, {
-	left: 70%;
+	right: 0%;
 	border: solid black 1px;
 	width: 30%;
-	position: relative;
+	position: absolute;
 	text-align: center;
 	background-color: #FA7002;
 	color: white;
@@ -162,10 +162,10 @@ body {
 	}
 
 	.itemname1, {
-	left: 70%;
+	right: 0%;
 	border: solid black 1px;
 	width: 30%;
-	position: relative;
+	position: absolute;
 	text-align: center;
 	background-color: #FA3052;
 	color: white;
@@ -173,10 +173,10 @@ body {
 	}
 
 	.itemname2 {
-	left: 85%;
+	right: 0%;
 	border: solid black 1px;
 	width: 15%;
-	position: relative;
+	position: absolute;
 	text-align: center;
 	background-color: #FA8092;
 	color: white;

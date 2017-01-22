@@ -12,6 +12,10 @@ body {
 	height: 75px;
 }
 
+.navbar-header {
+	height: 75px;
+}
+
 .navbar-brand h1 {
 	color: lightgray;
 	margin: 0;
@@ -25,4 +29,13 @@ body {
 .navbar-header button {
 	margin-top: 22.5px;
 	border: black 1px;
+}
+
+#nav-list {
+	margin-top: 0px;
+}
+
+#nav-list a {
+	background-color: salmon;
+	text-align: center;
 }
